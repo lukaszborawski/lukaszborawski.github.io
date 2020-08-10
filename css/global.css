@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
 .container {
     height: 300vh;
 }
@@ -15,7 +19,6 @@
     justify-content: flex-end;
     align-items: center;
     height: 70px;
-    background-color: red;
 }
 
 @media (min-width: 1024px) {
@@ -29,7 +32,7 @@
     cursor: pointer;
     position: fixed;
     top: 30px;
-    right: 40px;
+    right: 45px;
 }
 
 @media (min-width: 1024px) {
@@ -39,7 +42,7 @@
 }
 
 .fa-bars {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .fas--show {
@@ -63,6 +66,7 @@
     pointer-events: none;
     transition: 0.5s;
     transform: translateX(+90%);
+    list-style: none;
 }
 
 .menu_list--show {
@@ -73,6 +77,7 @@
 
 .menu-desktop_list {
     display: none;
+    list-style: none;
 }
 
 @media (min-width: 1024px) {
@@ -80,6 +85,15 @@
         display: flex;
         flex-basis: 40%;
         justify-content: space-around;
-
     }
+}
+
+.menu_item {
+    margin: 20px auto;
+}
+
+.menu_link {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
 }
