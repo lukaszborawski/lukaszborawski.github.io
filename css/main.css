@@ -17,6 +17,7 @@
     width: 100%;
     background-color: #bb5e5e;
     overflow: hidden;
+    z-index: -1;
 }
 
 .main_author {
