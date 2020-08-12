@@ -1,0 +1,35 @@
+.skills {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 12px;
+
+}
+
+.skills_title {
+    align-self: flex-start;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.skills_list {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-around;
+}
+
+.fa-html5 {
+    font-size: 50px;
+    color: rgb(223, 59, 0);
+}
+
+.fa-css3-alt {
+    font-size: 50px;
+    color: rgb(93, 190, 223);
+}
+
+.fa-js {
+    font-size: 50px;
+    color: rgb(250, 250, 45);
+}
