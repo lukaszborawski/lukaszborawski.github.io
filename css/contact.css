@@ -1,21 +1,28 @@
-.project {
+.contact {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin: 45px 12px;
 }
 
-.project_title {
+.contact_title {
     flex-basis: 100%;
     align-self: flex-start;
     font-size: 30px;
     margin-bottom: 15px;
 }
 
-.project_item {
-    border: 1px solid black;
-    width: 250px;
-    height: 350px;
+.contact_mail {
+    font-size: 23px;
+}
+
+.contact_icon {
+    margin: 15px 0;
+}
+
+.contact_fab {
+    font-size: 30px;
     cursor: pointer;
 }

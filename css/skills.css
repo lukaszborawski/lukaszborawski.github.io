@@ -1,6 +1,5 @@
 .skills {
     display: flex;
-    flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
     margin: 45px 12px;
