@@ -1,0 +1,21 @@
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 45px 12px;
+}
+
+.project_title {
+    align-self: flex-start;
+    flex-basis: 100%;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.project_item {
+    border: 1px solid black;
+    width: 250px;
+    height: 350px;
+    cursor: pointer;
+}
