@@ -1,0 +1,22 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 12px;
+}
+
+.about_title {
+    align-self: flex-start;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.about_description {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.about_image {
+    width: 225px;
+}
