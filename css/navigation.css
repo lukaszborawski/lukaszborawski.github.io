@@ -14,9 +14,8 @@
     cursor: pointer;
     position: fixed;
     top: 30px;
-    right: 30px;
+    right: 25px;
     z-index: 2;
-    width: 46px;
 }
 
 @media (min-width: 1024px) {
@@ -37,9 +36,6 @@
 
 .fas--show {
     display: block;
-    position: fixed;
-    top: 30px;
-    right: 30px;
 }
 
 .menu_list {
