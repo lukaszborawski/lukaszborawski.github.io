@@ -13,9 +13,13 @@
 
 .skills_list {
     display: flex;
-    flex-basis: 100%;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    align-self: center;
 }
+
+/* .skills_fab {
+    flex-basis: 50%;
+} */
 
 .fa-html5 {
     font-size: 50px;
@@ -30,4 +34,14 @@
 .fa-js {
     font-size: 50px;
     color: rgb(250, 250, 45);
+}
+
+.fa-sass {
+    font-size: 50px;
+    color: purple;
+}
+
+.fa-git-alt {
+    font-size: 50px;
+    color: orangered;
 }
