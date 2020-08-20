@@ -4,7 +4,9 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 45px 12px;
+    margin-top: 45px;
+    background-color: #202022;
+    color: white;
 }
 
 .contact_title {
@@ -25,5 +27,4 @@
 .contact_fab {
     font-size: 30px;
     cursor: pointer;
-    color: #202022;
 }

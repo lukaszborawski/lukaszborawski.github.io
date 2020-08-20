@@ -13,13 +13,15 @@
 
 .skills_list {
     display: flex;
-    flex-wrap: wrap;
     align-self: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-/* .skills_fab {
-    flex-basis: 50%;
-} */
+.skills_fab {
+    flex-basis: 33%;
+    padding: 10px 15px;
+}
 
 .fa-html5 {
     font-size: 50px;
