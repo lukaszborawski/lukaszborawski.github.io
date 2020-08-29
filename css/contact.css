@@ -4,9 +4,9 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 45px;
     background-color: #202022;
     color: white;
+    padding: 0 12px;
 }
 
 .contact_title {
@@ -17,7 +17,7 @@
 }
 
 .contact_mail {
-    font-size: 23px;
+    font-size: 18px;
 }
 
 .contact_icon {
@@ -27,4 +27,6 @@
 .contact_fab {
     font-size: 30px;
     cursor: pointer;
+    margin: 0 10px;
+    color: white;
 }

@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 45px;
     color: white;
     background-color: #202022;
     font-family: 'Poppins', sans-serif;
-    border-top: 1px solid white;
 }

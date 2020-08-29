@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 45px 12px;
+    padding: 15px 12px 30px 12px;
 }
 
 .project_title {
@@ -14,8 +14,23 @@
 }
 
 .project_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: 1px solid black;
     width: 250px;
     height: 350px;
     cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.project_fab {
+    font-size: 50px;
+    color: black;
+}
+
+.project_paragraph {
+    font-size: 20px;
 }

@@ -23,14 +23,14 @@
         <nav class="menu">
             <div class="menu_button"><i class="fas fa-bars fas--show"></i></div>
             <ul class="menu_list">
-                <li class="menu_item"><a href="#" class="menu_link">główna</a></li>
+                <li class="menu_item"><a href="#home" class="menu_link">główna</a></li>
                 <li class="menu_item"><a href="#about" class="menu_link">o mnie</a></li>
                 <li class="menu_item"><a href="#skills" class="menu_link">technologie</a></li>
                 <li class="menu_item"><a href="#project" class="menu_link">projekty</a></li>
                 <li class="menu_item"><a href="#contact" class="menu_link">kontakt</a></li>
             </ul>
         </nav>
-        <header class="main">
+        <header class="main" id="home">
             <h1 class="main_author">Łukasz Borawski</h1>
             <p class="main_description">Junior Frontend Developer</p>
             <p class="main_description">Portfolio</p>
@@ -38,8 +38,8 @@
         <section class="about" id="about">
             <h2 class="about_title">O mnie:</h2>
             <p class="about_description">Cześć! Pod koniec roku 2019 rozpocząłem swoją drogę z kodowaniem zaczynając od
-                kursu Samuraj Programowania. Opanowałem fundamenty HTML, CSS(SASS) oraz podstawowe zastosowanie
-                GIT-a. Obecnie poznaję logikę programowania w JavaScript.</p>
+                kursu Samuraj Programowania. Opanowałem fundamenty HTML, CSS, Sass oraz podstawowe zastosowanie
+                Git-a. Obecnie poznaję logikę programowania w JavaScript.</p>
             <img class="about_image" src="assets/image.jpg" alt="author">
         </section>
         <section class="skills" id="skills">
@@ -54,14 +54,20 @@
         </section>
         <section class="project" id="project">
             <h2 class="project_title">Projekty:</h2>
-            <div class="project_item"></div>
+            <div class="project_item">
+                <a href="https://github.com/lukaszborawski" target="_blank">
+                    <i class="project_fab fab fa-github-square"></i></a>
+                <p class="project_paragraph">Ćwiczenia z JavaScript</p>
+            </div>
         </section>
         <section class="contact" id="contact">
             <h2 class="contact_title">Kontakt:</h2>
-            <p class="contact_mail">borawski@gmail.com</p>
+            <p class="contact_mail">lukaszborawski.dev@gmail.com</p>
             <div class="contact_icon">
-                <i class="contact_fab fab fa-github-square"></i>
-                <i class="contact_fab fab fa-linkedin"></i>
+                <a href="https://github.com/lukaszborawski" target="_blank">
+                    <i class="contact_fab fab fa-github-square"></i></a>
+                <a href="https://github.com/lukaszborawski" target="_blank">
+                    <i class="contact_fab fab fa-linkedin"></i></a>
             </div>
         </section>
         <footer class="footer">
