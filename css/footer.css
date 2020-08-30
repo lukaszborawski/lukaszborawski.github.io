@@ -7,3 +7,15 @@
     background-color: #202022;
     font-family: 'Poppins', sans-serif;
 }
+
+@media (min-width: 768px) {
+    .footer {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer {
+        font-size: 24px;
+    }
+}

@@ -15,6 +15,30 @@
     font-size: 36px;
 }
 
+@media (min-width: 768px) {
+    .main_author {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .main_author {
+        font-size: 44px;
+    }
+}
+
 .main_description {
     font-size: 23px;
+}
+
+@media (min-width: 768px) {
+    .main_description {
+        font-size: 27px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .main_description {
+        font-size: 31px;
+    }
 }
