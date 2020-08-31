@@ -11,15 +11,17 @@ menu.addEventListener("click", function () {
     menu.classList.toggle("menu_list--show");
 })
 
-// const menuNav = document.querySelector(".menu");
-// const menuLink = document.querySelector(".menu_link");
+menuTop = document.getElementById('menu');
 
-// document.addEventListener("scroll", function () {
-//     if (window.scrollY > 0) {
-//         menuNav.classList.add("menuScroll");
-//         menuLink.classList.add("menuScroll");
-//     } else {
-//         menuNav.classList.remove("menuScroll");
-//         menuLink.classList.remove("menuScroll");
-//     }
-// })
+let lastScrollTop = 0;
+
+window.addEventListener('scroll', function () {
+    let scrollTop = window.pageYOffset;
+
+    if (scrollTop > lastScrollTop) {
+        menuTop.style.top = '-45px';
+    } else {
+        menuTop.style.top = '0';
+    }
+    lastScrollTop = scrollTop;
+});
