@@ -15,11 +15,23 @@
     }
 }
 
+@media (min-width: 1024px) {
+    .contact {
+        padding: 15px 80px;
+    }
+}
+
 .contact_title {
     flex-basis: 100%;
     align-self: flex-start;
     font-size: 30px;
     margin-bottom: 15px;
+}
+
+@media (min-width: 1024px) {
+    .contact_title {
+        font-size: 40px;
+    }
 }
 
 .contact_mail {
@@ -29,6 +41,12 @@
 @media (min-width: 768px) {
     .contact_mail {
         font-size: 22px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .contact_mail {
+        font-size: 26px;
     }
 }
 

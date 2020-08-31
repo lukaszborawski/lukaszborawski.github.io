@@ -10,3 +10,16 @@ burger.addEventListener("click", function () {
 menu.addEventListener("click", function () {
     menu.classList.toggle("menu_list--show");
 })
+
+// const menuNav = document.querySelector(".menu");
+// const menuLink = document.querySelector(".menu_link");
+
+// document.addEventListener("scroll", function () {
+//     if (window.scrollY > 0) {
+//         menuNav.classList.add("menuScroll");
+//         menuLink.classList.add("menuScroll");
+//     } else {
+//         menuNav.classList.remove("menuScroll");
+//         menuLink.classList.remove("menuScroll");
+//     }
+// })

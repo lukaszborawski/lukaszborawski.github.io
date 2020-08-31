@@ -15,6 +15,12 @@
     }
 }
 
+@media (min-width: 1024px) {
+    .about {
+        padding: 30px 80px;
+    }
+}
+
 .about_title {
     align-self: flex-start;
     font-size: 30px;

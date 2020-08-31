@@ -12,11 +12,23 @@
     }
 }
 
+@media (min-width: 1024px) {
+    .project {
+        padding: 30px 80px 40px 80px;
+    }
+}
+
 .project_title {
     flex-basis: 100%;
     align-self: flex-start;
     font-size: 30px;
     margin-bottom: 15px;
+}
+
+@media (min-width: 1024px) {
+    .project_title {
+        font-size: 40px;
+    }
 }
 
 .project_item {

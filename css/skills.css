@@ -12,10 +12,22 @@
     }
 }
 
+@media (min-width: 1024px) {
+    .skills {
+        padding: 30px 80px;
+    }
+}
+
 .skills_title {
     align-self: flex-start;
     font-size: 30px;
     margin-bottom: 15px;
+}
+
+@media (min-width: 1024px) {
+    .skills_title {
+        font-size: 40px;
+    }
 }
 
 .skills_list {
@@ -30,12 +42,19 @@
     display: flex;
     justify-content: center;
     padding: 10px 15px;
+    font-size: 50px;
 }
 
 @media (min-width: 768px) {
     .skills_fab {
         flex-basis: 15%;
         font-size: 75px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .skills_fab {
+        font-size: 85px;
     }
 }
 

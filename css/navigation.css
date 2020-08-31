@@ -1,14 +1,21 @@
 @media (min-width: 1024px) {
     .menu {
-        height: 70px;
+        height: 40px;
         position: fixed;
         width: 100%;
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        z-index: 999;
+        background-color: #202022;
 
     }
 }
+
+/* .menuScroll {
+    background-color: red;
+    color: green;
+} */
 
 .menu_button {
     cursor: pointer;
@@ -89,6 +96,6 @@
 
 @media (min-width: 1024px) {
     .menu_link {
-        color: black;
+        color: white;
     }
 }
